@@ -23,6 +23,7 @@ namespace TaraHi_AlGorithm_ProJect
         public MainWindow()
         {
             InitializeComponent();
+            MessageBox.Show("hello");
         }
     }
 }
