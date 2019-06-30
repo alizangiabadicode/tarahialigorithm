@@ -1,0 +1,11 @@
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\bin\Debug\netcoreapp2.1\جستجوی دودویی.deps.json
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\bin\Debug\netcoreapp2.1\جستجوی دودویی.runtimeconfig.json
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\bin\Debug\netcoreapp2.1\جستجوی دودویی.runtimeconfig.dev.json
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\bin\Debug\netcoreapp2.1\جستجوی دودویی.dll
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\bin\Debug\netcoreapp2.1\جستجوی دودویی.pdb
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\obj\Debug\netcoreapp2.1\جستجوی دودویی.csprojAssemblyReference.cache
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\obj\Debug\netcoreapp2.1\جستجوی دودویی.csproj.CoreCompileInputs.cache
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\obj\Debug\netcoreapp2.1\جستجوی دودویی.AssemblyInfoInputs.cache
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\obj\Debug\netcoreapp2.1\جستجوی دودویی.AssemblyInfo.cs
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\obj\Debug\netcoreapp2.1\جستجوی دودویی.dll
+d:\terme4\tarahi\code fasle taqsim va hal\جستجوی دودویی\obj\Debug\netcoreapp2.1\جستجوی دودویی.pdb

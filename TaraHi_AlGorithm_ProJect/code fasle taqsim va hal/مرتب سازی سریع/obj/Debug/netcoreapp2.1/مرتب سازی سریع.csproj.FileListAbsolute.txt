@@ -1,0 +1,11 @@
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\bin\Debug\netcoreapp2.1\مرتب سازی سریع.deps.json
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\bin\Debug\netcoreapp2.1\مرتب سازی سریع.runtimeconfig.json
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\bin\Debug\netcoreapp2.1\مرتب سازی سریع.runtimeconfig.dev.json
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\bin\Debug\netcoreapp2.1\مرتب سازی سریع.dll
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\bin\Debug\netcoreapp2.1\مرتب سازی سریع.pdb
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\obj\Debug\netcoreapp2.1\مرتب سازی سریع.csprojAssemblyReference.cache
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\obj\Debug\netcoreapp2.1\مرتب سازی سریع.csproj.CoreCompileInputs.cache
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\obj\Debug\netcoreapp2.1\مرتب سازی سریع.AssemblyInfoInputs.cache
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\obj\Debug\netcoreapp2.1\مرتب سازی سریع.AssemblyInfo.cs
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\obj\Debug\netcoreapp2.1\مرتب سازی سریع.dll
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی سریع\obj\Debug\netcoreapp2.1\مرتب سازی سریع.pdb

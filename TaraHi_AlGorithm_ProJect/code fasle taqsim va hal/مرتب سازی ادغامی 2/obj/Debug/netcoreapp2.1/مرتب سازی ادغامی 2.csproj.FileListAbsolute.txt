@@ -1,0 +1,11 @@
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\bin\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.deps.json
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\bin\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.runtimeconfig.json
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\bin\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.runtimeconfig.dev.json
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\bin\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.dll
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\bin\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.pdb
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\obj\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.csprojAssemblyReference.cache
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\obj\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.csproj.CoreCompileInputs.cache
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\obj\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.AssemblyInfoInputs.cache
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\obj\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.AssemblyInfo.cs
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\obj\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.dll
+d:\terme4\tarahi\code fasle taqsim va hal\مرتب سازی ادغامی 2\obj\Debug\netcoreapp2.1\مرتب سازی ادغامی 2.pdb
