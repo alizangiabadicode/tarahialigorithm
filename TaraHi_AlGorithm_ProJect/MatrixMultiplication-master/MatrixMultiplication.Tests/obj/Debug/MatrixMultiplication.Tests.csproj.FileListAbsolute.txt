@@ -1,0 +1,10 @@
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\bin\Debug\MatrixMultiplication.Tests.dll
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\bin\Debug\MatrixMultiplication.Tests.pdb
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\bin\Debug\MatrixMultiplication.dll
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\bin\Debug\MatrixMultiplication.pdb
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\obj\Debug\MatrixMultiplication.Tests.csprojAssemblyReference.cache
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\obj\Debug\MatrixMultiplication.Tests.csproj.CoreCompileInputs.cache
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\obj\Debug\MatrixMultiplication.Tests.csproj.CopyComplete
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\obj\Debug\MatrixMultiplication.Tests.dll
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Tests\obj\Debug\MatrixMultiplication.Tests.pdb
