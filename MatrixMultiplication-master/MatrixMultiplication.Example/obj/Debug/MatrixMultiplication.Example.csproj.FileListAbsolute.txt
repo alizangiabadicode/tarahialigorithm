@@ -1,0 +1,10 @@
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\bin\Debug\MatrixMultiplication.Example.exe.config
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\bin\Debug\MatrixMultiplication.Example.exe
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\bin\Debug\MatrixMultiplication.Example.pdb
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\bin\Debug\MatrixMultiplication.dll
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\bin\Debug\MatrixMultiplication.pdb
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\obj\Debug\MatrixMultiplication.Example.csprojAssemblyReference.cache
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\obj\Debug\MatrixMultiplication.Example.csproj.CoreCompileInputs.cache
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\obj\Debug\MatrixMultiplication.Example.csproj.CopyComplete
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\obj\Debug\MatrixMultiplication.Example.exe
+G:\terme4\tarahi\MatrixMultiplication-master\MatrixMultiplication.Example\obj\Debug\MatrixMultiplication.Example.pdb
