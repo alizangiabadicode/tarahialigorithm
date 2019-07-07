@@ -4,6 +4,19 @@
              xmlns:local="clr-namespace:TaraHi_AlGorithm_ProJect"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Orange.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="midnightBlue" Color="#2c3e50" ></SolidColorBrush>
+            <SolidColorBrush x:Key="wetasphalt" Color="#34495e" ></SolidColorBrush>
+            <SolidColorBrush x:Key="greensea" Color="#16a085" ></SolidColorBrush>
+            <SolidColorBrush x:Key="sunflower" Color="#f1c40f" ></SolidColorBrush>
+            <SolidColorBrush x:Key="orange" Color="#f39c12" ></SolidColorBrush>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

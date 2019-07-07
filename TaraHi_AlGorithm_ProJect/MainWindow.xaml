@@ -4,9 +4,34 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaraHi_AlGorithm_ProJect"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="1080" Width="1920"
+        WindowState="Maximized"
+        WindowStyle="None">
+
+    <Grid Background="{DynamicResource wetasphalt}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Border Background="{DynamicResource midnightBlue}">
+            <TreeView>
+                <TreeViewItem Header="تقسیم و حل"  FontSize="18" Foreground="White"  HorizontalContentAlignment="Right" >
+                    <TreeViewItem Header="جستجوی دودویی" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
+                    <TreeViewItem Header="مرتب سازی ادغامی" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
+                </TreeViewItem>
+            </TreeView>
+        </Border>
+        <Frame x:Name="MainFrame"  Grid.Column="1" NavigationUIVisibility="Hidden" Source="/TaraHi_AlGorithm_ProJect;component/ui/BinarySearchPage.xaml" >
+
+        </Frame>
     </Grid>
 </Window>
