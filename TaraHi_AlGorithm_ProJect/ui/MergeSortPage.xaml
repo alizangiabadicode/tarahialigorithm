@@ -84,7 +84,7 @@
                         <!--Error-->
                         <Label Content="Error" FontSize="18" Foreground="{StaticResource PrimaryHueMidBrush}" VerticalAlignment="Center" HorizontalAlignment="Center" />
                         <TextBlock TextWrapping="Wrap" FlowDirection="RightToLeft"  Margin="5,0" Grid.Row="1" FontSize="16" Foreground="White">
-                            لطفا طول ارایه و عدد مورد نظر برای جست جو را وارد کنید
+                            لطفا طول ارایه را وارد کنید
                         </TextBlock>
                         <Button Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}" Grid.Row="2" Content="OK" Style="{StaticResource MaterialDesignFlatButton}"  />
                     </Grid>

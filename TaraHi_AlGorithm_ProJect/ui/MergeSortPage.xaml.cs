@@ -48,39 +48,40 @@ namespace TaraHi_AlGorithm_ProJect.ui
                 }
             };
         }
-        void MergeSort(int low, int high,int[]s,int delay)
+        async Task MergeSort(int low, int high,int[]s,int delay)
         {
             if (low < high)
             {
 
                 int mid = (low + high) / 2;
 
-                MergeSort(low, mid,s,delay);
-                MergeSort(mid + 1, high,s,delay);
+                await MergeSort(low, mid,s,delay);
+                await MergeSort(mid + 1, high,s,delay);
 
                 Merge(low, mid, high,s,delay);
+                updateChart(s);
+                await Task.Delay(delay * 1000);
             }
         }
 
-        async void Merge(int low, int mid, int high, int[] s,int delay)
+        void Merge(int low, int mid, int high, int[] s,int delay)
         {
             int i = low, j = mid + 1, k = 0;
             int[] arr = new int[high - low + 1];
             while (i <= mid && j <= high)
             {
-                if (s[i] < s[j])
+                if (s[i] <= s[j])
                 {
                     arr[k] = s[i];
                     i++;
                 }
-                else if (s[j] < s[i])
+                else if (s[j] <= s[i])
                 {
                     arr[k] = s[j];
                     j++;
                 }
                 k++;
-                updateChart(s);
-                await Task.Delay(delay * 100);
+
             }
             if (i > mid)
             {
@@ -89,8 +90,6 @@ namespace TaraHi_AlGorithm_ProJect.ui
                     arr[k] = s[j];
                     j++;
                     k++;
-                    updateChart(s);
-                    await Task.Delay(delay * 100);
                 }
             }
             else if (j > high)
@@ -101,15 +100,12 @@ namespace TaraHi_AlGorithm_ProJect.ui
                     i++;
                     k++;
                     updateChart(s);
-                    await Task.Delay(delay * 100);
                 }
             }
             int c = 0;
             for (int o = low; o <= high; o++)
             {
                 s[o] = arr[c++];
-                updateChart(s);
-                await Task.Delay(delay * 100);
             }
         }
         private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
@@ -134,6 +130,7 @@ namespace TaraHi_AlGorithm_ProJect.ui
                 {
                     arr[i] = i;
                 }
+                Array.Reverse(arr);
             }
             return arr;
         }
