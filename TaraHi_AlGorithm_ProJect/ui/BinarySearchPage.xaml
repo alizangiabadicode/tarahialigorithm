@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TaraHi_AlGorithm_ProJect.ui"
       mc:Ignorable="d"
+      xmlns:materialDesignColors="clr-namespace:MaterialDesignColors;assembly=MaterialDesignColors"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       TextElement.Foreground="{DynamicResource MaterialDesignBody}"
       TextElement.FontWeight="Regular"
@@ -18,12 +19,24 @@
 
     <Grid Background="{DynamicResource midnightBlue}" Margin="5,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <Grid Margin="0,0,50,0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Auto">
+                    <StackPanel x:Name="arrStackPanel" Orientation="Horizontal">
 
+                    </StackPanel>
+                </ScrollViewer>
+                    
+            </Grid>
+        </Grid>
         <Expander HorizontalAlignment="Right"  ExpandDirection="Left" Background="{DynamicResource wetasphalt}">
             <Expander.Header>
-                <TextBlock Text="Configure" RenderTransformOrigin=".5,.5" FontSize="18" Foreground="{DynamicResource sunflower}" >
+                <TextBlock Text="Configure" RenderTransformOrigin=".5,.5" FontSize="18" Foreground="{StaticResource PrimaryHueMidBrush}" >
                     <TextBlock.LayoutTransform>
                         <RotateTransform Angle="90" />
                     </TextBlock.LayoutTransform>
@@ -35,10 +48,50 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBox Foreground="White" Grid.Row="1" Margin="0,10" PreviewTextInput="NumberValidationTextBox" materialDesign:HintAssist.Hint="طول ارایه" HorizontalContentAlignment="Right" materialDesign:HintAssist.IsFloating="True" FontSize="18" />
+                    <TextBox x:Name="arrayLen" Foreground="White" Grid.Row="0" Margin="0,10" PreviewTextInput="NumberValidationTextBox" materialDesign:HintAssist.Hint="طول ارایه" HorizontalContentAlignment="Right" materialDesign:HintAssist.IsFloating="True" FontSize="18" />
+                    <TextBox x:Name="item" materialDesign:HintAssist.Hint="ایتم" Grid.Row="1" Foreground="White" Margin="0,10" PreviewTextInput="NumberValidationTextBox" HorizontalContentAlignment="Right" materialDesign:HintAssist.IsFloating="True" FontSize="18" />
+                    <TextBox x:Name="delay" materialDesign:HintAssist.Hint="تاخیر" Grid.Row="2" Foreground="White" Margin="0,10" PreviewTextInput="NumberValidationTextBox" HorizontalContentAlignment="Right" materialDesign:HintAssist.IsFloating="True" FontSize="18" />
+                    <CheckBox x:Name="random" Margin="0,10" Grid.Row="3" Content="ایجاد ارایه تصادفی" Foreground="White" HorizontalAlignment="Right" />
+                    <Button x:Name="Search" Click="Search_Click" Grid.Row="4" Margin="0,10" Content="شروع جستجو" Foreground="White" materialDesign:ShadowAssist.ShadowDepth="Depth0" />
                 </Grid>
             </Border>
         </Expander>
+        
+        <materialDesign:DialogHost x:Name="ErrorDialog" IsOpen="False">
+            <materialDesign:DialogHost.Resources>
+                <Style TargetType="materialDesign:Card" BasedOn="{StaticResource {x:Type materialDesign:Card}}">
+                    <Style.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Dark.xaml" />
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </Style.Resources>
+                    <Setter Property="Background" Value="Transparent" />
+                </Style>
+            </materialDesign:DialogHost.Resources>
+            <materialDesign:DialogHost.DialogContent>
+                <Border Height="180" Width="320" Background="{StaticResource midnightBlue}" CornerRadius="10">
+                    <Grid Height="180" Width="320">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Border Background="{StaticResource wetasphalt}" Grid.Row="1" />
+                        <Label Content="Error" FontSize="18" Foreground="{StaticResource PrimaryHueMidBrush}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock TextWrapping="Wrap" FlowDirection="RightToLeft"  Margin="5,0" Grid.Row="1" FontSize="16" Foreground="White">
+                            لطفا طول ارایه و عدد مورد نظر برای جست جو را وارد کنید
+                        </TextBlock>
+                        <Button Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}" Grid.Row="2" Content="OK" Style="{StaticResource MaterialDesignFlatButton}"  />
+                    </Grid>
+                </Border>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
     </Grid>
+
 </Page>
