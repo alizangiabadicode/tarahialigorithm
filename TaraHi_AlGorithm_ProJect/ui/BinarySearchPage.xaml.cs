@@ -26,7 +26,7 @@ namespace TaraHi_AlGorithm_ProJect.ui
 
         private void Search_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            if (item.Text.Length == 0 || arrayLen.Text.Length == 0|| Convert.ToInt32(arrayLen.Text)<0 || Convert.ToInt32(delay.Text) < 0)
+            if (item.Text.Length == 0 || arrayLen.Text.Length == 0||delay.Text.Length==0||  Convert.ToInt32(arrayLen.Text)<0 || Convert.ToInt32(delay.Text) < 0)
             {
                 ErrorDialog.IsOpen = true;
             }
@@ -47,6 +47,7 @@ namespace TaraHi_AlGorithm_ProJect.ui
                 {
                     arr[i] = r.Next(0,len);
                 }
+                Array.Sort(arr);
             }
             else
             {

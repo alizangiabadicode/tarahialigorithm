@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TaraHi_AlGorithm_ProJect.ui;
 
 namespace TaraHi_AlGorithm_ProJect
 {
@@ -24,6 +25,12 @@ namespace TaraHi_AlGorithm_ProJect
         {
             InitializeComponent();
             
+        }
+
+        private void binarysearchbtn_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            BinarySearchPage page = new BinarySearchPage();
+            MainFrame.Navigate(page);
         }
     }
 }

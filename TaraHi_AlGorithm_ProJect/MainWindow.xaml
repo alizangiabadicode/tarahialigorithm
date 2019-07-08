@@ -25,12 +25,12 @@
         <Border Background="{DynamicResource midnightBlue}">
             <TreeView>
                 <TreeViewItem Header="تقسیم و حل"  FontSize="18" Foreground="White"  HorizontalContentAlignment="Right" >
-                    <TreeViewItem Header="جستجوی دودویی" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
+                    <TreeViewItem Header="جستجوی دودویی" x:Name="binarysearchbtn" MouseDoubleClick="binarysearchbtn_MouseDoubleClick" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
                     <TreeViewItem Header="مرتب سازی ادغامی" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
                 </TreeViewItem>
             </TreeView>
         </Border>
-        <Frame x:Name="MainFrame"  Grid.Column="1" NavigationUIVisibility="Hidden" Source="/TaraHi_AlGorithm_ProJect;component/ui/BinarySearchPage.xaml" >
+        <Frame x:Name="MainFrame"  Grid.Column="1" NavigationUIVisibility="Hidden" Source="/TaraHi_AlGorithm_ProJect;component/ui/MergeSortPage.xaml" >
 
         </Frame>
     </Grid>
