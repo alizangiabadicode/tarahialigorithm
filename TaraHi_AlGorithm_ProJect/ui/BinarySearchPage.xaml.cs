@@ -67,7 +67,7 @@ namespace TaraHi_AlGorithm_ProJect.ui
                  * mid=yellow
                  * other=red
                  */
-                arrStackPanel.Children.Add(new  Border { Height = 70, Width = 70, BorderBrush=arr[i]==x?Brushes.Green:i==(low+high)/2?Brushes.Blue:Brushes.Red, BorderThickness=new Thickness(2),Child=new Label {Content=arr[i].ToString(),VerticalAlignment=VerticalAlignment.Center,HorizontalAlignment=HorizontalAlignment.Center,Foreground=Brushes.White,FontSize=16}});
+                arrStackPanel.Children.Add(new  Border { Height = 70, Width = 70, BorderBrush=arr[i]==x?Brushes.Green:i==(low+high)/2?Brushes.Blue:Brushes.Red, BorderThickness=new Thickness(2),Child=new Label {Content=arr[i].ToString(),VerticalAlignment=VerticalAlignment.Center,HorizontalAlignment=HorizontalAlignment.Center,Foreground=Brushes.White,FontSize=16},CornerRadius=new CornerRadius(50)});
             }
         }
 

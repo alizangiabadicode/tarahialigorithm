@@ -73,6 +73,9 @@
     <Compile Include="ui\MergeSortPage.xaml.cs">
       <DependentUpon>MergeSortPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ui\quickSortPage.xaml.cs">
+      <DependentUpon>quickSortPage.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -90,6 +93,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ui\MergeSortPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ui\quickSortPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

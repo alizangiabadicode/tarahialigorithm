@@ -32,5 +32,17 @@ namespace TaraHi_AlGorithm_ProJect
             BinarySearchPage page = new BinarySearchPage();
             MainFrame.Navigate(page);
         }
+
+        private void mergeSortbtn_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MergeSortPage page = new MergeSortPage();
+            MainFrame.Navigate(page);
+        }
+
+        private void quickSortbtn_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            quickSortPage page = new quickSortPage();
+            MainFrame.Navigate(page);
+        }
     }
 }

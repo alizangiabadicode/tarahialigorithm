@@ -26,11 +26,12 @@
             <TreeView>
                 <TreeViewItem Header="تقسیم و حل"  FontSize="18" Foreground="White"  HorizontalContentAlignment="Right" >
                     <TreeViewItem Header="جستجوی دودویی" x:Name="binarysearchbtn" MouseDoubleClick="binarysearchbtn_MouseDoubleClick" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
-                    <TreeViewItem Header="مرتب سازی ادغامی" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
+                    <TreeViewItem Header="مرتب سازی ادغامی" x:Name="mergeSortbtn" MouseDoubleClick="mergeSortbtn_MouseDoubleClick" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
+                    <TreeViewItem Header="مرتب سازی سریع" x:Name="quickSortbtn" MouseDoubleClick="quickSortbtn_MouseDoubleClick" FontSize="18" Foreground="White"  HorizontalContentAlignment="Right"/>
                 </TreeViewItem>
             </TreeView>
         </Border>
-        <Frame x:Name="MainFrame"  Grid.Column="1" NavigationUIVisibility="Hidden" Source="/TaraHi_AlGorithm_ProJect;component/ui/MergeSortPage.xaml" >
+        <Frame x:Name="MainFrame"  Grid.Column="1" NavigationUIVisibility="Hidden" Source="/TaraHi_AlGorithm_ProJect;component/ui/quickSortPage.xaml" >
 
         </Frame>
     </Grid>
